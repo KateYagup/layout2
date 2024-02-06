@@ -1,0 +1,80 @@
+@import 'card.scss';
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Montserrat';
+    color: #FFFFFF;
+}
+
+.over {
+    display: flex;
+    justify-content: center;
+}
+
+.page {
+    // max-width: 1140px;
+    width: 100%;
+    max-height: 1000px;
+    padding: 115px 132px;
+    background: #141B1C;
+    display: flex;
+    justify-content: center;
+}
+
+.first {
+    background: #5BB189;
+
+    &__checked {
+        background-image: url("img/checkmark1.png");
+    }
+
+}
+
+.second {
+    background: #3A6BA5;
+
+    &__checked {
+        background-image: url("img/checkmark2.png");
+    }
+
+}
+
+.third {
+    background: #EC632A;
+
+    &__checked {
+        background-image: url("img/checkmark3.png");
+    }
+}
+
+.popular {
+    width: 122px;
+    height: 123px;
+    position: absolute;
+    top: -18px;
+    right: -18px;
+
+    // border: 2px solid green;
+
+    &__inner {
+        clip-path: polygon(17% 0, 82% 0, 100% 100%, 0 100%);
+        position: absolute;
+        top: 47px;
+        right: -12px;
+
+        height: 25px;
+        line-height: 25px;
+        width: 143px;
+
+        text-transform: uppercase;
+        background: #DC3F45;
+        font-size: 14px;
+        font-weight: 700;
+        text-align: center;
+
+        transform: rotate(45deg);
+    }
+}
