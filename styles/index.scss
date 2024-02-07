@@ -12,8 +12,8 @@ html {
 .price-tables {
     display: flex;
     justify-content: center;
-    // align-items: center;
-    padding-top: 115px;
+    align-items: center;
+    // padding-top: 115px;
     background: #141B1C;
     min-width: 100%;
     min-height: 100vh;
@@ -22,7 +22,6 @@ html {
 .first {
     background: #5BB189;
 
-    margin-right: 18px;
 
     &__checked {
         background-image: url("img/checkmark1.png");
@@ -31,7 +30,6 @@ html {
 
 .second {
     background: #3A6BA5;
-    margin-right: 18px;
 
     &__checked {
         background-image: url("img/checkmark2.png");
@@ -40,7 +38,6 @@ html {
 
 .third {
     background: #EC632A;
-    margin-right: 0;
 
     &__checked {
         background-image: url("img/checkmark3.png");
