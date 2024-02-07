@@ -1,4 +1,4 @@
-@import 'table.scss';
+@import 'price-card.scss';
 
 * {
     box-sizing: border-box;
@@ -9,7 +9,7 @@ html {
     color: #FFFFFF;
 }
 
-.price-tables {
+.price-price-cards {
     display: flex;
     justify-content: center;
     align-items: center;
