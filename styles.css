@@ -103,18 +103,13 @@ html {
   color: #FFFFFF;
 }
 
-.over {
+.price-tables {
   display: flex;
   justify-content: center;
-}
-
-.page {
-  width: 100%;
-  max-height: 1000px;
-  padding: 115px 132px;
+  align-items: center;
   background: #141B1C;
-  display: flex;
-  justify-content: center;
+  min-width: 100%;
+  min-height: 100vh;
 }
 
 .first {
