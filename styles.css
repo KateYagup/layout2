@@ -1,4 +1,4 @@
-.card {
+.table {
   width: 380px;
   height: 770px;
   margin-right: 18px;
@@ -8,24 +8,24 @@
   align-items: center;
   position: relative;
 }
-.card:last-child {
+.table:last-child {
   margin-right: 0;
 }
-.card__top {
+.table__top {
   width: 100px;
   height: 64px;
   color: #FFFFFF;
   margin: 33px 0;
   text-align: center;
 }
-.card__top-title {
+.table__top-title {
   margin: 0;
   font-size: 35px;
 }
-.card__top-paragaph {
+.table__top-paragaph {
   margin: 0;
 }
-.card__price {
+.table__price {
   width: 380px;
   height: 105px;
   margin: 0;
@@ -36,7 +36,7 @@
   text-align: center;
   color: #FFFFFF;
 }
-.card__description {
+.table__description {
   margin: 40px 27px 40px 26px;
   text-align: center;
   font-size: 15px;
@@ -45,7 +45,7 @@
   letter-spacing: 0px;
 }
 
-.card__list {
+.table__list {
   list-style-type: none;
 }
 
