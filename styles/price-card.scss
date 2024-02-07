@@ -2,7 +2,6 @@
     width: 380px;
     height: 770px;
     margin-right: 18px;
-    // margin-left: 18px;
     background: #334247;
     display: flex;
     flex-direction: column;
@@ -18,16 +17,21 @@
         height: 64px;
         color: #FFFFFF;
         margin: 33px 0;
-        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     &__top-title {
         margin: 0;
         font-size: 35px;
+        display: inline-block;
     }
 
     &__top-paragaph {
         margin: 0;
+        font-size: 20px;
+        display: inline-block;
     }
 
     &__price {
@@ -35,10 +39,8 @@
         height: 105px;
         margin: 0;
 
-        // font-family: Montserrat;
         font-size: 55px;
         font-weight: 700;
-        // line-height: 67px;
         line-height: 105px;
         letter-spacing: 0px;
         text-align: center;
@@ -54,16 +56,20 @@
         line-height: 18px;
         letter-spacing: 0px;
     }
+
+    &__options-list {
+        list-style-type: none;
+        padding-left: 0;
+        margin: 0;
+    }
 }
 
-.price-card__list {
-    list-style-type: none;
-}
 
-ul {
-    padding-left: 0;
-    margin: 0;
-}
+
+// ul {
+//     padding-left: 0;
+//     margin: 0;
+// }
 
 li {
     font-size: 15px;
@@ -90,9 +96,6 @@ li {
     margin-top: 18px;
     margin-left: 22px;
     margin-right: 22px;
-
-    // background-image: url("img/checkmark1.png");
-    // margin: 18px 22px;
 }
 
 .order {
