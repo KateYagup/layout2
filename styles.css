@@ -111,7 +111,8 @@ html {
 .price-table {
   display: flex;
   justify-content: center;
-  padding-top: 115px;
+  align-items: center;
+  padding-top: 1px;
   background: #141B1C;
   min-width: 100%;
   min-height: 100vh;
