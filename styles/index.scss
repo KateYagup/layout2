@@ -24,7 +24,7 @@ html {
 
 
     &__checked {
-        background-image: url("img/checkmark1.png");
+        background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png");
     }
 }
 
@@ -32,7 +32,7 @@ html {
     background: #3A6BA5;
 
     &__checked {
-        background-image: url("img/checkmark2.png");
+        background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png");
     }
 }
 
@@ -40,7 +40,8 @@ html {
     background: #EC632A;
 
     &__checked {
-        background-image: url("img/checkmark3.png");
+        background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png");
+
     }
 }
 

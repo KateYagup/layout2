@@ -123,21 +123,21 @@ html {
   background: #5BB189;
 }
 .first__checked {
-  background-image: url("img/checkmark1.png");
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png");
 }
 
 .second {
   background: #3A6BA5;
 }
 .second__checked {
-  background-image: url("img/checkmark2.png");
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png");
 }
 
 .third {
   background: #EC632A;
 }
 .third__checked {
-  background-image: url("img/checkmark3.png");
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png");
 }
 
 .popular {
